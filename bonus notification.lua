@@ -1,6 +1,6 @@
 function Notification(text)
     game:GetService("StarterGui"):SetCore("SendNotification",{
-        Title = "Hello Word",
+        Title = "Hello World",
         Text = text,
         Icon = "rbxassetid://0", -- decal id, you can choose or leave it blank whatever.
         Duration = 3,
