@@ -2,7 +2,7 @@ local MessageBoxT = {
     BoxIcons = {
         ["Question"] = "http://www.roblox.com/asset/?id=8800441559",
         ["Error"] = "http://www.roblox.com/asset/?id=8800303348",
-        ["Warning"] = "http://www.roblox.com/asset/?id=8800428538"
+        ["Warning"] = "http://www.roblox.com/asset/?id=4615696924"
     }
 }
 
