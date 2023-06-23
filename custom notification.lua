@@ -1,6 +1,6 @@
 local Module = {}
 
-function Module:Notify(titletxt, text, time)
+function Module.Notify(titletxt, text, time)
     local GUI = Instance.new("ScreenGui")
     local Main = Instance.new("Frame", GUI)
     local title = Instance.new("TextLabel", Main)
@@ -38,4 +38,4 @@ function Module:Notify(titletxt, text, time)
     GUI:Destroy();
 end
 
--- Module:Notify("You are a cunt", "yeah good boi", 5) / Notify function, statement
+-- Module.Notify("You are a cunt", "yeah good boi", 5) / Notify function, statement
