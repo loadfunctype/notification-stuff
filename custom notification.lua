@@ -38,4 +38,6 @@ function Notify(titletxt, text, time)
     GUI:Destroy();
 end
 
+return Notify;
+
 -- Notify("You are a cunt", "yeah good boi", 5) / Notify function, statement
