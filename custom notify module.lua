@@ -40,4 +40,4 @@ end
 
 return module
 
--- Module.Notify("You are a cunt", "yeah good boi", 5) / Notify function, statement
+-- module.Notify("You are a cunt", "yeah good boi", 5) / Notify function, statement
