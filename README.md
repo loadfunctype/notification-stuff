@@ -7,6 +7,6 @@ Here are some previews, took me some time to make fuuuuckkk
 
 ```lua
 _G.Config = { ["Theme"] = "Discord" } -- Available themes: ["spotify"], ["discord"], ["light"], ["dark"]
-local Nord = loadstring(game:HttpGetAsync(https://raw.githubusercontent.com/razerbignamer/notification-stuff/main/Modules/NordModule.lua", true))();
+local Nord = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/loadfunctype/notification-stuff/main/Modules/NordModule.lua", true))();
 Nord:Notify("Nord", "Loadstring worked successfully!", "success", 3);
 ```
