@@ -64,7 +64,11 @@ function headsetLib(title, description, button, callback, closewhenclicked, text
     dialog.Overlay.Alert.AlertContents.Footer.Buttons["1"].MouseButton1Click:Connect(handleClick)
 end
 
+--[[
+USAGE
+local HeadsetLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/loadfunctype/notification-stuff/refs/heads/main/Documentaiton/DocuHeadsetWarning.lua"))()
 
 headsetLib("Title", "Description", "Button", function() -- # title, description (description, button), callback
     print("Button Pressed!")
 end, true, false) -- # closewhenclicked, textscaled
+--]]
