@@ -15,5 +15,5 @@ Nord:Notify("Nord", "Loadstring worked successfully!", "success", 3);
 ### Warning
 ```lua
 local l = loadstring(game:HttpGet("https://raw.githubusercontent.com/loadfunctype/notification-stuff/refs/heads/main/Modules/Hood.lua", true))()
-l:Notify("Title","Descript",10)
+l:Notify("Title","Description", 10)
 ```
