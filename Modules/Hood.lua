@@ -66,7 +66,7 @@ function NotificationLibrary:Notify(TitleText, Desc, Delay)
 	    wait(Delay)
 	    Notification:TweenPosition(UDim2.new(1, 5, 0, 75), "Out", "Sine", 0.35)
 	    wait(0.35)
-	    Notification:Destroy()
+	    AbyssGUI:Destroy()
 end
 
 return NotificationLibrary
