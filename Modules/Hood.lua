@@ -1,6 +1,7 @@
 local NotificationLibrary = {}
 
 local AbyssGUI = Instance.new("ScreenGui"); AbyssGUI.Name = "_warn"; AbyssGUI.Parent = game.CoreGui; AbyssGUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+AbyssGUI.DisplayOrder = 9e9
 
 function NotificationLibrary:Notify(TitleText, Desc, Delay)
     local Notification = Instance.new("Frame")
@@ -60,13 +61,15 @@ function NotificationLibrary:Notify(TitleText, Desc, Delay)
 	Description.TextSize = 12.000
 	Description.TextStrokeTransparency = 0.500
 	Description.TextXAlignment = Enum.TextXAlignment.Left
+    task.spawn(function() -- resumes into coroutine in the background
 	    Notification:TweenPosition(UDim2.new(1, -400, 0, 75), "Out", "Sine", 0.35)
-	    wait(0.35)
+	    task.wait(0.35)
 	    Line:TweenSize(UDim2.new(0, 450, 0, 4), "Out", "Linear", Delay)
-	    wait(Delay)
+	    task.wait(Delay)
 	    Notification:TweenPosition(UDim2.new(1, 5, 0, 75), "Out", "Sine", 0.35)
-	    wait(0.35)
+	    task.wait(0.35)
 	    AbyssGUI:Destroy()
+    end)
 end
 
 return NotificationLibrary
