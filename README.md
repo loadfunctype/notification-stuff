@@ -17,3 +17,5 @@ Nord:Notify("Nord", "Loadstring worked successfully!", "success", 3);
 local l = loadstring(game:HttpGet("https://raw.githubusercontent.com/loadfunctype/notification-stuff/refs/heads/main/Modules/Hood.lua", true))()
 l:Notify("Title","Description", 10)
 ```
+
+Original credits to the owners, you can find their reups
