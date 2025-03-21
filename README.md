@@ -18,4 +18,4 @@ local l = loadstring(game:HttpGet("https://raw.githubusercontent.com/loadfunctyp
 l:Notify("Title","Description", 10)
 ```
 
-Original credits to the owners, you can find their reups
+Original credits goes for the owners, I just modified it and improved some of them
