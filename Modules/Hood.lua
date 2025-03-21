@@ -1,3 +1,4 @@
+-- from @https://github.com/Eazvy/UILibs/tree/main/Notifications/Hood, modified to tweak a little
 local NotificationLibrary = {}
 
 local AbyssGUI = Instance.new("ScreenGui"); AbyssGUI.Name = "_warn"; AbyssGUI.Parent = game.CoreGui; AbyssGUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
